@@ -99,7 +99,7 @@ const (
 	UpTo10kgPrice   int = 100
 	UpTo25kgPrice   int = 300
 	UpTo50kgPrice   int = 500
-	UpTo1000kgPrice int = 1000
+	UpTo1000kgPrice int = 2000
 )
 
 func (s *Shipment) FormPrice() {
